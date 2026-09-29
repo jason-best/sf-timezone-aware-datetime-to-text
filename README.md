@@ -56,17 +56,6 @@ After install, the Flow action is **Format Date Time in Time Zone Offset** (`thr
 
 ---
 
-## Development
-
-```bash
-sf org create scratch --definition-file config/project-scratch-def.json --alias tz-datetime-scratch --set-default
-sf project deploy start --manifest manifest/package.xml --target-org tz-datetime-scratch --test-level RunLocalTests
-```
-
-Packaging and 2GP releases are maintained in the private [ThreeLeversDevOrg](https://github.com/jason-best/ThreeLeversDevOrg) monorepo. Source and docs: [jason-best/sf-timezone-aware-datetime-to-text](https://github.com/jason-best/sf-timezone-aware-datetime-to-text). See [docs/PACKAGING.md](docs/PACKAGING.md).
-
----
-
 ## License
 
 [BSD 3-Clause](LICENSE) · Copyright Three Levers
